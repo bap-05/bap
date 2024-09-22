@@ -1,0 +1,73 @@
+*{margin:0;padding: 0;}
+#lchieu{margin: 10px 0px 0px 10px;}
+.lich{
+    background-color: rgb(219, 16, 16);
+    margin: 10px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.anh{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.lop{
+    position: relative;
+    text-decoration: none;
+}
+.lop .lop1 img{
+    width: 200px;
+    height: 250px;
+}
+.lop .lop1 figcaption{
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    width: 200px;
+}
+.lop .lop2{
+    width: 200px;
+    height: 250px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.lop:hover .lop2{
+    opacity: 0.4;
+}
+.lop .lop3{
+    position: absolute;
+    top: 90px;
+    left: 75px;
+    font-size: 50px;
+    color: white;
+    opacity: 0;
+    transition: 0.4s;
+    transform: scale(0);
+}
+.lop:hover .lop3{
+    opacity: 1;
+    transform: scale(1)
+}
+
+@media only screen and (max-width : 740px) {
+    html{width: 100%;}
+    main{
+        width: 100%;
+    }
+    .lop .lop1 figcaption{
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .lop .lop1 img{
+       width: 150px;
+       height: 200px;
+    }
+    .lop .lop2,
+    .lop .lop3{display: none;}
+}

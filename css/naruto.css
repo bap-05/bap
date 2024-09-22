@@ -1,0 +1,42 @@
+*{margin: 0;padding: 0;}
+#bach{
+     background-image: url(/images/na02.jpg);
+     background-size: 1940px;
+     width:100% ;
+     height: 500px;
+     display: flex;
+     justify-content: space-around;
+}
+h1{
+    text-align: center;
+    margin-top:60px;
+    color:orange;
+   font-size: 40px;
+}
+.ka div{
+    width: 600px;
+    font-size:30px;
+    color: white;
+    text-align: center;
+}
+.t2{
+    margin-top: 250px;
+    display: flex;
+}
+
+
+.box1 {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border-color: orange;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;  
+    margin: 30px auto;
+}
+.box1:hover{
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+}

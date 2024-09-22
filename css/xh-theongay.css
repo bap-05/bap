@@ -1,0 +1,151 @@
+*{padding: 0;margin: 0;}
+#than{
+    background-color: rgb(182, 176, 176);
+    padding-top: 10px;
+}
+#than .con1{
+    margin: 10px 0  0 20px ;
+}
+#than #xh{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+#than #xh li{margin-left: 20px;}
+#than #xh a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#than #xh a:hover{color: rgb(17, 255, 17);}
+#than #so1{ 
+    display: flex;
+    margin-top: 30px;
+    height: 250px;
+    width: 100%;
+    background-image: url(/images/backgroudrimuru.jpg);
+    background-size:cover;
+
+}
+#than .t1{
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+#than #so1 img{
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#than .t2{
+
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+#than .t2 a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+}
+#than .t2 div{color: white;}
+#than .t3{
+    color: white;
+    font-size: 30px;
+    margin-left:400px ;
+    margin-top:100px ;
+}
+.so2{
+    display: flex;
+    width: 98%;
+    margin-top: 20px;
+    background-color: aliceblue;
+    height: 180px;
+    margin-left: 15px;
+    margin-right: 10px;
+    
+}
+.so2 .s1{
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.so2 a img{
+    width: 100px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.so2 .s2{
+    margin-left: 50px;
+   width: 500px;
+    margin-top: 30px;
+}
+.so2 .s2 a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.so2 .s3{
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 70px;
+}@media only screen and (min-width:740px) and (max-width: 1024px ) {
+    #than .t2 a{
+        font-size: 30px;
+    }
+    #than .t3{
+        margin-left: 100px;
+    }
+    .so2 .s3{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width : 740px){
+    #than #xh{
+        font-size: 10px;
+    }
+    #than #xh li{
+        width: 100px;
+    }
+    #than #so1 img{
+        width: 120px;
+        margin-left: 10px;
+    }
+    #than .t1{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    #than .t2{
+        width: 300px;
+        text-align: left;
+    }
+    #than .t2 a{
+        font-size: 25px;
+        width: 300px;
+    }
+    #than .t3 {
+        display: none;
+    }
+    .so2 .s1{
+        margin-left: 10px;
+    }
+    .so2 a img{
+        width: 70px;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .so2 .s3{
+        display: none;
+    }
+    .so2 .s2 {
+        margin-top: 40px;
+    }
+    .so2 .s2 a{
+        font-size: 20px;
+    }
+}

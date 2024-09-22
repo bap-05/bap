@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="/css/dangnhap.css">
+    <link rel="website icon" href="/images/logo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+    <section>
+        <div id="dangNhap">
+            <div class="ql">
+                <a class="fa fa-arrow-left icon" href="/index.html"></a>
+                <h1>Đăng nhập!</h1>
+            </div>
+            <form id="formDn">
+                <p class="fa fa-envelope em"><input id="em" type="email"  placeholder=" Email đăng nhập"></p></br>
+                <p class="fa fa-lock em"><input id="mk" type="password" placeholder=" Mật khẩu"></p>
+                <div id="loi">Email hoặc mật khẩu chưa đúng</div>
+                <div class="luu">
+                    <p class="luu1"><input type="checkbox">lưu mật khẩu</p>
+                    <button type="submit" class="luu1 luu2">ĐĂNG NHẬP</button>
+                </div>  
+            </form>
+            <div class="dk">chưa có tài khoản?<button id="ch">ĐĂNG KÝ</button>ngay!</div>
+        </div>
+        <div id="dangKy">
+            <div class="ql">
+                <div id="luilai" class="fa fa-arrow-left icon"></div>
+                <h1>Đăng ký!</h1>
+            </div>
+            <form id="formDk">
+                <p class="fas fa-user em"><input id="username" type="text" required placeholder="User Name"></p></br>
+                <p class="fa fa-envelope em"><input id="email" type="email" required placeholder="Email"></p> </br>
+                <p class="fa fa-lock em"><input id="password" type="password" required placeholder="Password"></p></br>
+                <p class="fa fa-lock em"><input id="repassword" type="password" required placeholder="Confirm Password"></p></br>
+                <div id="eroll">Mật khẩu không trùng khớp</div>
+                <button class="dky" type="submit">Đăng ký</button>
+            </form>
+             <div class="dn">Đã có tài khoản?<button id="qua">ĐĂNG NHẬP</button>ngay!</div>
+        </div> 
+      
+        
+    </section>
+    <script src="/js/dangnhap.js"></script>
+</body>
+</html>

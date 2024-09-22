@@ -1,0 +1,38 @@
+*{padding: 0;margin: 0;}
+#bach{
+    background-image: url(/images/dr.strone-nen.jpg);
+    background-size:1430px;
+    padding-top: 60px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.ka h1{
+    color: rgb(74, 249, 74);
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+.ka div{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.ka t2{
+    margin-top: 300px;
+   
+}
+.box1 button{
+     font-weight: bold;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:rgb(74, 249, 74) ;
+    border-color: rgb(74, 249, 74);
+}
+.box1 button:hover{
+    background-color: green;
+    border-color: green;
+    color: white;
+}

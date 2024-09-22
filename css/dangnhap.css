@@ -1,0 +1,166 @@
+
+html{
+    background-color: rgb(63, 61, 61);
+}
+section{
+    position: relative;
+    width: 900px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#dangNhap{
+    background-image: url(/images/dangnhap.jpg);
+    background-size: cover;
+    margin-top: 90px;
+    color: aquamarine;
+}
+form{
+    text-align: center;
+}
+form .em{
+    font-size: 30px;
+}
+form input{
+    font-size: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.ql .icon{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.ql a:hover{color: red;}
+.ql h1{
+    padding-top: 0px;
+    text-align: center;
+    font-size: 35px;
+}
+#dangNhap #loi{
+    color: red;
+    background-color: rgb(248, 244, 244);
+    width: 400px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    display: none;
+}
+#dangNhap .luu{display: flex;}
+#dangNhap .luu1{
+    margin-left: 230px;
+}
+#dangNhap .luu2{
+   height: 40px;
+   border-radius: 5px;
+   color: yellow;
+   background-color: red;
+   border-color: red;
+   font-weight: bold;
+}
+#dangNhap .luu2:hover{
+    background-color: rgb(174, 16, 16);
+    border-color:rgb(174, 16, 16) ;
+    color: rgb(172, 172, 18);
+    color: white;
+}
+#dangNhap .dk{
+     padding-bottom: 10px;
+     text-align: center;
+}
+#dangNhap .dk button{
+    border-radius: 10px;
+    color:black;
+    background-color: yellow;
+    border-color: yellow;
+}
+#dangNhap .dk button:hover{
+    background-color: rgb(153, 153, 17);
+    border-color:rgb(153, 153, 17) ;
+    color: white;
+   
+}
+#dangKy{
+    background-image: url(/images/dangky.jpg);
+    width:884px ;
+    background-size:1000px ;
+    color: aquamarine;
+    position: absolute;
+    top: -40px;
+    padding-bottom: 20px;
+    display: none;
+}
+#dangKy.len{
+    display: block;
+
+}
+#dangKy #formDk{position: relative;}
+#dangKy #formDk #eroll{
+    color: red;
+    position: absolute;
+    left: 265px;
+    top: 370px;
+    display: none;
+}
+#dangKy .dky{
+    width: 90px;
+    height: 40px;
+    margin-left: 230px;
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.dn{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+#dangKy .dn button{
+    background-color: red;
+    border-color: red;
+    border-radius: 10px;
+    color: white;
+}
+@media only screen and (min-width: 740px) and (max-width : 1024px){
+  
+    section{
+        width: 100%;
+        margin-top: 40%;
+    }
+}
+@media only screen and (max-width: 740px){
+    section{
+        width: 100%;
+    }
+    #dangNhap{
+        background-size: cover;
+    }
+    form input{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    #dangNhap .luu{
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    #dangNhap .luu1{
+      margin-left: 0;
+    }
+    #dangNhap .luu2{
+        width: 90px;
+        height: 30px;
+        font-size: 10px;
+    }
+    #dangNhap #loi{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+      
+    }
+    #dangKy{
+        background-size: cover;
+        width: 100%;
+    }
+}
